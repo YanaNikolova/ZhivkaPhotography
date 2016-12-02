@@ -17,13 +17,13 @@ body{
 	width: 100%;
 	text-align: center;
 	background:#fff;
+	min-height:700px;
 }
 .container{
 	display: inline-block;
 	width: 985px;
 }
 .content{
-	margin-top: 150px;
 }
 .container-title {
 	width:100%; 
@@ -103,6 +103,10 @@ button{
 	border: 1px solid #58c4a7;
 }
 /* HEADER */
+
+.sec.header{
+	min-height:120px;
+}
 .logo{
 	display: inline-block;
 	width: 20%;
@@ -165,14 +169,14 @@ button{
 .menu > li > a {
 	display: block;
     float: left;
-	padding-left: 25px;
-    padding-right: 25px;
+	padding-left: 15px;
+    padding-right: 15px;
 	color: #7F7E7E;
     font-size: 18px;
     font-weight: 300;
     text-decoration: none;
     margin-top: 50px;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
     text-align: center;
 }
 
@@ -201,6 +205,17 @@ button{
 	margin-top:100px;
 }
 
+
+
+/* Gallery */
+
+.sec.gallery {
+	float:left;
+	padding:50px 0px 50px 0px;
+}
+.ug-gallery-wrapper.ug-theme-tiles{
+	margin: 0 auto;
+}
 
 /* CONTACTS */
 
@@ -275,7 +290,7 @@ button{
 .footer{
 	width:100%;
 	float:left;
-	min-height:130px;
+	min-height:90px;
 	background-color: rgba(0, 0, 0, 0.6);
 	border-top: 0px solid rgba(0, 0, 0, 0.6);
     border-bottom: 0px solid rgba(0, 0, 0, 0.6);
@@ -299,7 +314,7 @@ button{
 .footer-menu > li > a {
 	display: block;
     float: left;
-	margin-top:50px;;
+	margin-top:50px;
 	color: #EFDD8D;
     font-size: 15px;
     font-weight: 300;
