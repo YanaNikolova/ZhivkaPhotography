@@ -7,26 +7,50 @@
 	<!-- FONT AWESOME -->
 	<script src="https://use.fontawesome.com/d2709871f2.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	
-	<title>ZhivkaTodorova</title>
+	<!-- mmenu -->
+	<link type="text/css" rel="stylesheet" href="./css/jquery.mmenu.all.css" />
+	<script type="text/javascript" src="./js/jquery.mmenu.all.min.js"></script>
+	<script type="text/javascript">
+	   $(document).ready(function() {
+		  $("#mobile").mmenu({
+			 lidingSubmenus: false
+		  }, {
+			 // configuration
+			 offCanvas: {
+				pageNodetype: "section"
+			 }
+		  });
+	   });
+	</script>	
+<title>ZhivkaTodorova</title>
 </head>
 <body>
 	<section class="sec header">
 		<div class="header-fixed">
 			<div class="container">	
 				<div class="menu_box">
-					<a href="" class="mobile_menu">
+					<a href="#mobile" class="mobile_menu">
+						<i class="fa fa-bars" aria-hidden="true"></i>
 					</a>
 					<div class="logo">
 						<a href="./" class="logo-link"><img src="./images/logo.png"></a>
 					</div>
 					<ul class="menu">
-						<li><a href="">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About me</a></li>
 						<li><a href="portraits.html">Portraits</a></li>
 						<li><a href="nudes.html">Nudes</a></li>
 						<li><a href="contacts.html">Contacts</a></li>
 					</ul>
+					<nav id="mobile">
+						<ul class="menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About me</a></li>
+							<li><a href="portraits.html">Portraits</a></li>
+							<li><a href="nudes.html">Nudes</a></li>
+							<li><a href="contacts.html">Contacts</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</div>	
